@@ -1,25 +1,41 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYspanE html>
+    <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <title>Psychic-Game</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <title>Psychic-Game</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <link rel="stylesheet" tyspane="text/css" href="assets/css/style.css">
+    </head>
 
-<body>
-    <h1>The Psychic Game</h1>
-    <h2>Guess What I Am Thinking Of</h2>
+    <body>
+        <div class="container">
+            <div class="wrapper">
 
-    <p id="win"></p>
+                <h1>The Psychic Game</h1>
+                <h2>Guess What I Am Thinking Of....</h2>
 
-    <p id="loss"></p>
+                <h3>WON</h3>
 
-    <p id="guesses"></p>
+                <span id="win"></span>
 
-    <p id="guessesleft"></p>
+                <h3>LOST</h3>
 
-    <script type="text/javascript" src="assets/javascript/game.js"></script>
-</body>
-</html>
+                <span id="loss"></span>
+
+                <p>Attempts Made:
+                    <span id="guesses"></span>
+                </p>
+
+                <p>Attempts Remaining:
+                    <span id="guessesleft"></span>
+                </p>
+
+            </div>
+        </div>
+        </container>
+        <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+    </body>
+
+    </html>
